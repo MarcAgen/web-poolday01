@@ -1,18 +1,20 @@
-
 .box {
-    grid-column: 1 / 5;
     margin: 10px;
-    outline: thick solid #000000 2px;
+    outline: thick solid #000000;
+    outline-offset: 2px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: white;
+    background-color: white;   
 }
 
-.box>:first-child {
-    width: 80%
+.flexbox {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex: 80%;
 }
+
 
 .content {
-    background-color: gray;
-
+    background-color: grey;
 }
