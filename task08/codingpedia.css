@@ -1,12 +1,11 @@
 .box {
-    margin: 10px;
-    outline: thick solid #000000;
+    outline-style: solid;
     outline-width: 2px;
+    outline-color: black;
+    padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: white;   
 }
-
 .flexbox {
     display: flex;
     align-items: center;
